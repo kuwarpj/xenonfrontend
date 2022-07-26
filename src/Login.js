@@ -31,7 +31,7 @@ const Login = () => {
       localStorage.setItem("user", JSON.stringify(result.user));
       localStorage.setItem("token", JSON.stringify(result.auth));
       console.log("logged in")
-      Navigate("/contact")
+      Navigate("/home")
     } else {
       alert("Invalid Email or Password!!!");
     }
@@ -42,11 +42,9 @@ const Login = () => {
 
   return (
     <div className='Login'>
-<div class="container">
-    <div class="github-logo">
-      <i class="fa-brands fa-github"></i>
-    </div>
-    <h1 class="github-head">
+<div class="login-container">
+    
+    <h1 class="login-head">
       Sign in to Account
     </h1>
     <div class="login-wrapper">
@@ -71,7 +69,7 @@ const Login = () => {
     </div>
 
     <div class="info">
-      <span>New to Website <a onClick={goToSignUp}>Create an account.</a></span>
+      <span>New to Website  <a className="a-tag" onClick={goToSignUp}> Create an account.</a></span>
     </div>
   </div>
 

@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { useState } from 'react'
 import {useNavigate} from 'react-router-dom'
+import "./SignUp.css"
 
 const SignUp = () => {
     const [name,setName] = useState("")
@@ -12,7 +13,7 @@ const SignUp = () => {
     useEffect(()=>{
       const auth = localStorage.getItem("user")
       if(auth){
-        Navigate('/contact')
+        Navigate('/Home')
       }
     })
 
@@ -30,7 +31,7 @@ const SignUp = () => {
     console.log(result)
     localStorage.setItem("user", JSON.stringify(result.result))
     localStorage.setItem("token", JSON.stringify(result.auth))
-      Navigate('/contact')
+      Navigate('/Home')
    
 
     }
@@ -39,14 +40,12 @@ const SignUp = () => {
     }
     return (
         <div className='signup'>
-            <div class="container">
-                <div class="github-logo">
-                    <i class="fa-brands fa-github"></i>
-                </div>
-                <h1 class="github-head">
+            <div class="signup-container">
+                
+                <h1 class="signup-head">
                     Sign Up 
                 </h1>
-                <div class="login-wrapper">
+                <div class="signup-wrapper">
                     <div class="input-box">
                         <div class="input-label">Username</div>
                         <input type="text" value={name} onChange={(e)=> setName(e.target.value)} required />
@@ -71,7 +70,7 @@ const SignUp = () => {
                 </div>
 
                 <div class="info">
-                    <span>Already have Account<a onClick={goToLogin}>Sign in.</a></span>
+                    <span>Already have Account <a className="a-tag" onClick={goToLogin}>Sign in.</a></span>
                 </div>
             </div>
 

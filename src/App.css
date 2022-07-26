@@ -2,6 +2,16 @@
   text-align: center;
 }
 
+/* color variables  */
+
+:root {
+  --primary-green: #2da44e;
+  --primary-dark: #24292f;
+  --primary-light: #ffffff;
+  --fade-light: #f6f8fa;
+  --border-color: rgb(141, 141, 141);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

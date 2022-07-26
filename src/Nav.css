@@ -1,0 +1,27 @@
+.Nav{
+    margin-top: 30px;
+   
+    width: 20%;
+    margin: auto;
+    padding: 10px;
+    font-family: "lora";
+}
+
+
+.navUl li{
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+.navUl li a{
+    padding: 5px;
+    text-decoration: none;
+}
+
+
+.nav-right{
+    text-align: right;
+    margin-right: 10px;
+}
