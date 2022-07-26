@@ -13,7 +13,7 @@ const SignUp = () => {
     useEffect(()=>{
       const auth = localStorage.getItem("user")
       if(auth){
-        Navigate('/Home')
+        Navigate('/')
       }
     })
 
@@ -31,7 +31,7 @@ const SignUp = () => {
     console.log(result)
     localStorage.setItem("user", JSON.stringify(result.result))
     localStorage.setItem("token", JSON.stringify(result.auth))
-      Navigate('/Home')
+      Navigate('/')
    
 
     }

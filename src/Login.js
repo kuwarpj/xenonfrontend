@@ -13,7 +13,7 @@ const Login = () => {
   useEffect(() => {
     const auth = localStorage.getItem("user");
     if (auth) {
-      //Navigate("/");
+      Navigate("/");
     }
   }, []);
 
@@ -31,7 +31,7 @@ const Login = () => {
       localStorage.setItem("user", JSON.stringify(result.user));
       localStorage.setItem("token", JSON.stringify(result.auth));
       console.log("logged in")
-      Navigate("/home")
+      Navigate("/")
     } else {
       alert("Invalid Email or Password!!!");
     }
