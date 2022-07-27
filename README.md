@@ -14,7 +14,23 @@ After Installing all the Dependencies Now You can Run the Project
 
 Run  Npm index.js in terminal to start Backend Server and then Run Npm Start in terminal  for Frontend.
 
-![This is Image](https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/bag-1.png?raw=true)
+# Sign-up Page
+
+![Sign-up Page] {https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/signup.png}
+
+#Login-Page
+
+![Login Page] {https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/login.png}
+
+#Home-Page
+
+![Home Page] {https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/Home.png}
+
+
+#Mobile - Responsive
+
+![ Mobile Responsive] {https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/mbl2.png}
+
 
 
 
