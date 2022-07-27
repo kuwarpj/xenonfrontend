@@ -16,20 +16,20 @@ Run  Npm index.js in terminal to start Backend Server and then Run Npm Start in 
 
 # Sign-up Page
 
-![Sign-up Page] (https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/signup.png)
+![Sign-up Page](https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/signup.png)
 
 #Login-Page
 
-![Login Page] (https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/login.png)
+![Login Page](https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/login.png)
 
 #Home-Page
 
-![Home Page] (https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/Home.png)
+![Home Page](https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/Home.png)
 
 
 #Mobile - Responsive
 
-![ Mobile Responsive] (https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/mbl2.png)
+![ Mobile Responsive](https://github.com/kuwarpj/xenonfrontend/blob/main/src/images/mbl2.png)
 
 
 
