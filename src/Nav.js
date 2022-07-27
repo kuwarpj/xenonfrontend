@@ -17,7 +17,7 @@ function logout(){
     <div className='Nav'>
       
        {auth ? <ul className='navUl'>
-            <li><Link to="/Home">Home</Link></li>
+            <li><Link to="/">Home</Link></li>
             <li><Link to="/Contact">Contact</Link></li>
             
             <li><Link onClick={logout} to="/signup">Logout</Link></li>
